@@ -250,111 +250,115 @@
             .card_body_edit {
                 transform: rotate(0deg);
                 margin-left: 500px;
-                height: auto;
+                height: 425px;
                 z-index: 1000;
                 background-color: black;
             }
 
             .card_img {
                 width: 50%;
-                height: auto;
+                height: 425px;
                 transform: rotate(0deg);
-
                 border: 2px solid #0075c5;
                 margin-right: 635px;
 
             }
         }
 
-        @media screen and (max-width: 2600px) and (min-width: 2200px) {
+        @media screen and (max-width: 2600px)and (min-width: 2200px){
 
             .card_hover_animation:hover {
                 .card_img {
                     width: 38%;
+                    margin-right: 875px;
                 }
 
                 .card_body_edit {
-                    width: 31%;
-                    margin-left: 773px;
-                    padding: 53px 86px;
-                    height: auto;
+                    width: 38%;
+                    margin-left: 900px;
+                    padding: 30px 60px;
                     z-index: 1000;
+                    background-color: black;
+                    /* overflow:scroll; */
+                }
+            }
+        }
+
+        @media screen and (max-width: 2199px)and (min-width: 2000px){
+
+            .card_hover_animation:hover {
+                .card_img {
+                    width: 40%;
+                    margin-right: 780px;
+                
+                }
+
+                .card_body_edit {
+                    margin-left: 800px;
+                    padding: 30px 30px;
+                    width: 40%;
+                    z-index: 1000;
+                  
                     background-color: black;
                 }
             }
         }
 
-        @media screen and (max-width: 2199px) and (min-width: 2000px) {
+        @media screen and (max-width: 1999px) and (min-width: 1800px){
 
             .card_hover_animation:hover {
                 .card_img {
-                    width: 40%;
+                    max-width: 40%;
+                    margin-right: 750px;
                 }
 
                 .card_body_edit {
                     margin-left: 750px;
-                    padding: 45px 100px;
-                    width: 40%;
-                    height: auto;
-                    z-index: 1000;
-                    background-color: black;
-                }
-            }
-        }
-
-        @media screen and (max-width: 1999px) and (min-width: 1800px) {
-
-            .card_hover_animation:hover {
-                .card_img {
-                    width: 44%;
-                }
-
-                .card_body_edit {
-                    margin-left: 700px;
                     padding: 35px 52px;
-                    width: 39%;
-                    height: auto;
+                    width: 40%;
                     z-index: 1000;
                     background-color: black;
                 }
             }
         }
 
-        @media screen and (max-width: 1799px) and (min-width: 1500px) {
+        @media screen and (max-width: 1799px)and (min-width: 1500px){
 
             .card_hover_animation:hover {
                 .card_img {
-                    max-width: 49%;
-                    margin-right: 554px;
+                    margin-right: 650px;
+                    width: 40%;
+                    height: 450px;
 
                 }
 
                 .card_body_edit {
-                    padding: 0px 0px 11px 20px;
-                    height: auto;
-                    margin-right: -119px;
-                    max-width: 49%;
+                    padding: 0px 0px 1px 1px;
+                    margin-left:650px;
+                    width: 40%;
                     z-index: 1000;
+                    height: 450px;
                     background-color: black;
                 }
             }
         }
 
-        @media screen and (max-width: 1499px) and (min-width: 1200px) {
+        @media screen and (max-width: 1499px)and (min-width: 1200px) {
 
             .card_hover_animation:hover {
                 .card_img {
-                    max-width: 56%;
-                    margin-right: 493px;
+                    max-width: 59%;
+                    margin-right: 500px;
 
                 }
 
                 .card_body_edit {
-                    max-width: 55%;
-                    margin-left: 654px;
-                    padding: 26px 58px;
+                    max-width: 45%;
+                    margin-right: -145px;
+                    padding: 0px 0px 26px 58px;
                     z-index: 1000;
                     background-color: black;
+                    /* overflow: scroll; */
                 }
             }
         }
@@ -364,7 +368,7 @@
             .card_hover_animation:hover {
                 .card_img {
                     max-width: 56%;
-                    margin-right: 388px;
+                    margin-right: 390px;
 
                 }
 
@@ -378,75 +382,103 @@
             }
         }
 
-        @media screen and (max-width: 991px) and (min-width: 800px) {
-            .card_hover_animation {}
-
+        @media screen and (max-width: 991px)and (min-width: 800px){
             .card_hover_animation:hover {
                 .card_img {
                     margin-right: 0px;
                     margin: 0% 50% 0px 0px;
-                    height: auto;
+                    width: 50%;
+                    height: 425px;
                 }
 
                 .card_body_edit {
-                    margin: 1% 10px 10px 33%;
+                    /* margin: 1% 10px 10px 33%; */
+                    margin-left: 380px;
+                    width:50%;
                     z-index: 1000;
                     background-color: black;
                     /* padding: 10px; */
-                    height: auto;
+                    height: 425px;
+                    overflow: scroll;
                 }
             }
 
         }
 
-        @media screen and (max-width: 799px) and (min-width: 750px) {
-            .card_hover_animation {}
 
+        @media screen and (max-width: 799px) and (min-width: 750px)  {
+            
             .card_hover_animation:hover {
+                /* display: flex;
+                flex-direction: column; Stack items vertically */
+                /* align-items: center;
+                text-align: center;
+                width: 100%; Ensure it takes full width */
+
+
                 .card_img {
                     margin-right: 0px;
-                    margin: 0% 50% 0px 0px;
-                    height: auto;
+                    margin: 0% 40% 0px 0px;
+                    height: 200px;
+
+                    /* margin: 0 auto;
+                    width: 90%; /* Adjust width for responsiveness */
+                    /* height: auto;  */
+                    
                 }
 
                 .card_body_edit {
-                    margin: 0% 0px 0px 8%;
+                    /* margin: 0% 0px 0px 8%;
                     z-index: 1000;
-                    background-color: black;
+                    background-color: black; */
                     /* padding: 10px; */
+                     /* height: auto;
+                    width: 61%; */
+
+                    width: 100%; /* Ensure text block takes most of the width */
+                    margin: 10px; /* Center the text block */
                     height: auto;
-                    width: 61%;
+                    /* padding: 20px; */
+
+                    
                 }
             }
 
         }
+
+
 
         @media screen and (max-width: 749px) and (min-width: 600px) {
-            .card_hover_animation {}
 
             .card_hover_animation:hover {
                 .card_img {
-                    margin-right: 0px;
-                    margin: 0% 50% 0px 0px;
-                    height: auto;
+
+                    margin-right: 260px; 
+                    /* margin: 0% 200px 0px 0px; */
+                    width: 45%;
+                    height: 425px;
                 }
 
                 .sub_title_hover {
-                    font-size: 24px;
+                    font-size: 20px;
                 }
 
                 .card_body_edit {
-                    margin: 11% 0px 0px 3%;
-                    width: 75%;
+                    /* margin: 0px 0px 200px 0px; */
+                    margin-left:290px;
+                    width: 45%;
                     z-index: 1000;
                     background-color: black;
                     /* padding: 10px; */
-                    height: auto;
+                    height: 425px;
+                    overflow: scroll;
+                   
                 }
             }
         }
+    
 
-        @media screen and (max-width: 599px) and (min-width: 400px) {
+        @media screen and (max-width: 599px)and (min-width: 400px){
             .card_hover_animation {
                 p {
                     font-size: 10px;
@@ -456,7 +488,7 @@
                     font-size: 10px;
                 }
 
-                li {
+                .li {
                     font-size: 10px;
                 }
 
@@ -478,12 +510,12 @@
             .card_hover_animation:hover {
                 .card_img {
                     margin-right: 0px;
-                    margin: 0% 50% 0px 0px;
-                    height: auto;
+                    margin: 0.1px 0px 0px 0px;
+                    height: 100px;
                 }
 
                 p {
-                    font-size: 10px;
+                    font-size: 4px;
                 }
 
                 .p_edit {
@@ -491,7 +523,7 @@
                 }
 
                 li {
-                    font-size: 10px;
+                    font-size: 4px;
                 }
 
                 .sub_title_hover {
@@ -499,7 +531,7 @@
                 }
 
                 .card_body_edit {
-                    margin: 11% 0px 0px 3%;
+                    margin: 0px 0px 0px 1%;
                     width: 100%;
                     z-index: 1000;
                     background-color: black;
@@ -510,7 +542,7 @@
 
         }
 
-        @media screen and (max-width: 399px) and (min-width: 300px) {
+        @media screen and (max-width: 399px)and (min-width: 300px){
             .card_hover_animation {
                 p {
                     font-size: 8px;
@@ -547,7 +579,7 @@
                 }
 
                 p {
-                    font-size: 10px;
+                    font-size: 8px;
                 }
 
                 .p_edit {
@@ -591,7 +623,7 @@
                 }
 
                 .sub_title_hover {
-                    font-size: 9px;
+                    font-size: 4px;
                 }
 
                 .card_body_edit {
@@ -605,6 +637,9 @@
                 }
             }
 
+    
+        
+
             .card_hover_animation:hover {
                 .card_img {
                     margin-right: 0px;
@@ -613,30 +648,33 @@
                 }
 
                 p {
-                    font-size: 7px;
+                    font-size: 2px;
                 }
 
                 .p_edit {
-                    font-size: 7px;
+                    font-size: 2px;
                 }
 
                 li {
-                    font-size: 7px;
+                    font-size: 2px;
                 }
 
                 .card_body_edit {
-                    margin: 25% 0px 0px 3%;
+                    margin: 1px 0px 1% 0px;
                     width: 100%;
                     z-index: 1000;
                     background-color: black;
-                    /* padding: 10px; */
-                    height: auto;
+                    padding: 10px; 
+                    height: 4%;
+                    
                 }
             }
 
         }
+        
 
-        @media screen and (max-width: 199px) and (min-width: 9px) {
+
+        @media screen and (max-width: 199px)and (min-width: 9px) {
             .card_hover_animation {
                 p {
                     font-size: 4px;
@@ -671,15 +709,15 @@
                 }
 
                 p {
-                    font-size: 4px;
+                    font-size: 2px;
                 }
 
                 .p_edit {
-                    font-size: 4px;
+                    font-size: 2px;
                 }
 
                 li {
-                    font-size: 4px;
+                    font-size: 2px;
                 }
 
                 .card_body_edit {
@@ -687,10 +725,11 @@
                     width: 100%;
                     z-index: 1000;
                     background-color: black;
-                    /* padding: 10px; */
-                    height: auto;
+                    height:auto;
                 }
             }
+
+            
 
         }
     </style>
@@ -772,7 +811,7 @@
             </script>
             <!-- modal service 1 -->
             <div class="modal-body " id="highlight-table2"
-                style="background-color: black; height: auto; width: 100%; padding: 3vw 4vw;   border: 2px solid #0073c2;">
+                style="background-color: black; height:5%; width:100%; padding: 3vw 4vw;   border: 2px solid #0073c2;">
                 <button class="btn-close button_bg" data-bs-dismiss="modal" aria-label="Close"><a class="button_a "
                         href="services.html"><i class="fa-solid fa-xmark"></i></a></button>
 
@@ -804,14 +843,14 @@
 
                     <div class='ser-des' id="highlight-table1">
                         <div class="col-12 card-title">
-                            <h3 style='text-align: center;color: #005691;' class="headding_text">Enterprise Application
+                            <h3 style="text-align: center;color: #005691;"class="headding_text">Enterprise Application
                             </h3>
                         </div><br>
                         <div>
                             <div id="highlight-table ">
 
                                 <!-- 1 service  -->
-                                <div style=' margin-top: 100px;' class='row row_edit card_hover_animation'>
+                                <div style="margin-top: 80px;" class='row row_edit card_hover_animation'>
 
                                     <div class='card_body_edit'>
                                         <div class='col-sm-12'>
@@ -852,8 +891,8 @@
                                         </div>
                                     </div>
                                     <div class='col-lg '>
-                                        <div style="display: flex; justify-content: center;">
-                                            <img class='card_img '
+                                        <div style="display:flex; justify-content: center;">
+                                            <img class="card_img"
                                                 src='https://i.pinimg.com/originals/a6/8b/bc/a68bbcf059f42ab2f1482d749a8f91bd.gif'
                                                 alt=''>
                                         </div>
@@ -863,11 +902,11 @@
 
                                 <!-- 2 service  -->
 
-                                <div style=' margin-top: 100px;' class='row row_edit card_hover_animation'>
+                                <div style="margin-top: 150px;" class='row row_edit card_hover_animation'>
 
                                     <div class='card_body_edit'>
                                         <div class='col-sm-12'>
-                                            <div style=' padding: 0px 0px;' class='row '>
+                                            <div style="padding: 0px 0px;" class="row">
                                                 <div class='card-body card'>
                                                     <p>Leveraging our extensive global
                                                         experience,
@@ -906,7 +945,7 @@
 
                                 <!-- service 3 -->
 
-                                <div style=' margin-top: 100px;' class='row row_edit card_hover_animation'>
+                                <div style="margin-top: 150px;" class='row row_edit card_hover_animation'>
 
                                     <div class='card_body_edit'>
                                         <div class='col-sm-12'>
@@ -954,14 +993,14 @@
 
                                 </div>
 
-                                <p class='headding_text'>
+                                <p class='headding_text' style="font-weight:700; margin-top: 150px;">
                                     Focusing on
                                     Business Value.
                                     Faster.</p><br />
 
                                 <!-- service 4 -->
 
-                                <div style=' margin-top: 100px;' class='row row_edit card_hover_animation'>
+                                <div style= "margin-top: 50px;"class='row row_edit card_hover_animation'>
 
                                     <div class='card_body_edit'>
                                         <div class='col-sm-12'>
@@ -1024,7 +1063,7 @@
 
                                 <!-- service 5 -->
 
-                                <div style=' margin-top: 100px;' class='row row_edit card_hover_animation'>
+                                <div style="margin-top: 150px;" class='row row_edit card_hover_animation'>
 
                                     <div class='card_body_edit'>
                                         <div class='col-sm-12'>
@@ -1340,7 +1379,7 @@
                         </div>
 
                         <h2 class="headding_text" style="
-                                            font-weight: 700;margin-top: 150px;">We specialize in developing:</h2>
+                                            font: weight 50px;margin-top: 180px;">We specialize in developing:</h2>
                         <div class="row box" id="box6">
                             <div class="col" style="text-align: center;    padding: 20px 20px;">
                                 <span><img style="width: 60px;" src="img/service_icon_1.1.png" alt="" srcset=""></span>
